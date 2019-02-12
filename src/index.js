@@ -1,8 +1,12 @@
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-filename-extension */
+/* eslint-disable import/extensions */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './containers/App.jsx';
 import * as serviceWorker from './serviceWorker';
+import 'tachyons';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
